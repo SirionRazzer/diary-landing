@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-.vcenter {
-  align-items: center; }
-
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -3114,3 +3111,12 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   @media screen and (min-width: 1408px) {
     .columns.is-variable.is-8-fullhd {
       --columnGap: 2rem; } }
+
+.main-wrapper {
+  max-width: 1344px; }
+
+.store-image {
+  max-width: 60%; }
+
+.columns {
+  height: 100vh; }
