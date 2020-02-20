@@ -33,19 +33,19 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/grid/columns.sass";
 
 .main-wrapper {
-    max-width: 1344px;
+    max-width: 1024px;
     padding: 32px 0px 32px 0px;
 }
 
 .store-image {
-    max-width: 40%;
+    max-width: 50%;
 }
 
 .columns {
     height: 100vh;
 }
 
-.google-play {
+.centered {
     /* align-items: center; */
     display: flex;
     justify-content: center;
@@ -80,4 +80,8 @@ p {
 
 .navbar {
     background: #e0eeff;
+}
+
+.links {
+    padding: 32px 0px 0px 0px;
 }
