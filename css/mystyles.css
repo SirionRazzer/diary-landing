@@ -3113,10 +3113,42 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       --columnGap: 2rem; } }
 
 .main-wrapper {
-  max-width: 1344px; }
+  max-width: 1344px;
+  padding: 32px 0px 32px 0px; }
 
 .store-image {
-  max-width: 60%; }
+  max-width: 40%; }
 
 .columns {
   height: 100vh; }
+
+.google-play {
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px; }
+
+.css-18nzgp9::after {
+  content: '';
+  position: fixed;
+  background: #034AA6;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -2; }
+
+.title {
+  color: #e0eeff; }
+
+.subtitle {
+  color: #e0eeff; }
+
+p {
+  color: #e0eeff; }
+
+.navbar {
+  background: #e0eeff; }
