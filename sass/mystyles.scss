@@ -47,12 +47,11 @@ $input-shadow: none;
     max-width: 50%;
 }
 
-.columns {
-    height: 100vh;
-}
+// .column {
+//     //height: 100vh;
+// }
 
 .centered {
-    /* align-items: center; */
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -60,16 +59,8 @@ $input-shadow: none;
     max-width: 1080px;
 }
 
-.css-18nzgp9::after {
-    content: '';
-    position: fixed;
+body {
     background: #034AA6;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: -2;
 }
 
 .title {
@@ -135,4 +126,9 @@ p {
 
 .social {
     display: flex;
+}
+
+.testimonial {
+    background: $primary;
+    margin-top: -10px;
 }
