@@ -8586,3 +8586,6 @@ p {
 
 .first {
   background: #034AA6; }
+
+.tile {
+  padding: 0px 13px 0px 13px; }
