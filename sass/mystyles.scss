@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import "./fontawesome/fontawesome.scss";
 @import "./fontawesome/solid.scss";
 @import "./fontawesome/brands.scss";
@@ -14,7 +14,7 @@ $primary-dark: #034AA6;
 
 $grey-lighter: #F0F0F0;
 // Update Bulma's global variables
-$family-sans-serif: "Nunito",
+$family-sans-serif: "Lato",
 sans-serif;
 // $grey-dark: $grey-dark;
 // $grey-light: $grey-light;
@@ -84,8 +84,22 @@ p {
     color: #e0eeff;
 }
 
+.content b {
+    border-bottom: 5px solid $accent;
+    display: inline-block;
+    line-height: 0.9;
+}
+
+.content ul {
+    color: #e0eeff;
+    margin-left: 2em;
+    margin-top: 1em;
+    display: list-item;
+    list-style: disc outside;
+}
+
 .navbar {
-    background: #e0eeff;
+    background: white;
 }
 
 .links {
@@ -108,4 +122,17 @@ p {
     &:before {
         content: fa-content($fa-var-github);
     }
+}
+
+.facebook {
+    @extend %fa-icon;
+    @extend .fab;
+
+    &:before {
+        content: fa-content($fa-var-facebook);
+    }
+}
+
+.social {
+    display: flex;
 }

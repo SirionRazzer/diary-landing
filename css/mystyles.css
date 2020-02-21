@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 /*!
  * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -10,7 +10,8 @@
 .fad,
 .fab,
 .twitter,
-.github {
+.github,
+.facebook {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -19,7 +20,7 @@
   text-rendering: auto;
   line-height: 1; }
 
-.twitter, .github {
+.twitter, .github, .facebook {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -104,7 +105,8 @@
 .fal.fa-pull-left,
 .fab.fa-pull-left,
 .fa-pull-left.twitter,
-.fa-pull-left.github {
+.fa-pull-left.github,
+.fa-pull-left.facebook {
   margin-right: .3em; }
 
 .fa.fa-pull-right,
@@ -113,7 +115,8 @@
 .fal.fa-pull-right,
 .fab.fa-pull-right,
 .fa-pull-right.twitter,
-.fa-pull-right.github {
+.fa-pull-right.github,
+.fa-pull-right.facebook {
   margin-left: .3em; }
 
 .fa-spin {
@@ -4457,7 +4460,8 @@ readers do not read off random characters that represent icons */
 
 .fab,
 .twitter,
-.github {
+.github,
+.facebook {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
@@ -4632,7 +4636,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Nunito", sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 code,
 pre {
@@ -5175,13 +5179,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Lato", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Lato", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Lato", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -8436,8 +8440,20 @@ a.navbar-item,
 p {
   color: #e0eeff; }
 
+.content b {
+  border-bottom: 5px solid #C51162;
+  display: inline-block;
+  line-height: 0.9; }
+
+.content ul {
+  color: #e0eeff;
+  margin-left: 2em;
+  margin-top: 1em;
+  display: list-item;
+  list-style: disc outside; }
+
 .navbar {
-  background: #e0eeff; }
+  background: white; }
 
 .links {
   padding: 32px 0px 0px 0px; }
@@ -8447,3 +8463,9 @@ p {
 
 .github:before {
   content: "\f09b"; }
+
+.facebook:before {
+  content: "\f09a"; }
+
+.social {
+  display: flex; }
