@@ -60,7 +60,7 @@ $input-shadow: none;
 }
 
 body {
-    background: #034AA6;
+    background: white;
 }
 
 .title {
@@ -131,4 +131,9 @@ p {
 .testimonial {
     background: $primary;
     margin-top: -10px;
+    margin-bottom: -1px;
+}
+
+.first {
+    background: $primary-dark;
 }

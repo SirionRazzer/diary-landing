@@ -8417,7 +8417,7 @@ a.navbar-item,
   max-width: 1080px; }
 
 body {
-  background: #034AA6; }
+  background: white; }
 
 .title {
   color: #e0eeff; }
@@ -8460,4 +8460,8 @@ p {
 
 .testimonial {
   background: #1B78F2;
-  margin-top: -10px; }
+  margin-top: -10px;
+  margin-bottom: -1px; }
+
+.first {
+  background: #034AA6; }
