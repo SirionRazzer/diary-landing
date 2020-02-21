@@ -2,6 +2,9 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/solid.scss";
+@import "./fontawesome/brands.scss";
 
 // Set your brand colors
 $accent: #C51162;
@@ -11,7 +14,8 @@ $primary-dark: #034AA6;
 
 $grey-lighter: #F0F0F0;
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: "Nunito",
+sans-serif;
 // $grey-dark: $grey-dark;
 // $grey-light: $grey-light;
 // $primary: $primary;
@@ -30,7 +34,9 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/elements/icon.sass";
 @import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
 
 .main-wrapper {
     max-width: 1024px;
@@ -84,4 +90,22 @@ p {
 
 .links {
     padding: 32px 0px 0px 0px;
+}
+
+.twitter {
+    @extend %fa-icon;
+    @extend .fab;
+
+    &:before {
+        content: fa-content($fa-var-twitter);
+    }
+}
+
+.github {
+    @extend %fa-icon;
+    @extend .fab;
+
+    &:before {
+        content: fa-content($fa-var-github);
+    }
 }
