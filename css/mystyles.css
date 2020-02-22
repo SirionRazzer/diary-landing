@@ -8589,3 +8589,29 @@ p {
 
 .tile {
   padding: 0px 13px 0px 13px; }
+
+.media-content .title {
+  color: #363636; }
+
+.media-content .subtitle {
+  color: #4a4a4a; }
+
+.media {
+  align-items: flex-start;
+  display: flex;
+  text-align: left; }
+
+.media-left {
+  margin-right: 1rem; }
+
+.media-left, .media-right {
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0; }
+
+.image.is-48x48 {
+  height: 48px;
+  width: 48px; }
+
+.card {
+  margin-bottom: 16px; }
