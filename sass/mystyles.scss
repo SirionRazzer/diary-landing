@@ -40,6 +40,9 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/components/card.sass";
 
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1023px;
+
 .main-wrapper {
     max-width: 1024px;
     padding: 32px 0px 32px 0px;
@@ -49,16 +52,14 @@ $input-shadow: none;
     max-width: 50%;
 }
 
-// .column {
-//     //height: 100vh;
-// }
-
 .centered {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 1080px;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
@@ -174,5 +175,37 @@ p {
 }
 
 .card {
+    margin-bottom: 16px;
+}
+
+// @media (min-width: $breakpoint-tablet) {
+//     .pricing {
+//         margin-top: -130px;
+//     }
+// }
+
+// @media (min-width: $breakpoint-desktop) {
+//     .pricing {
+//         margin-top: -170px;
+//     }
+// }
+
+.pricing .title {
+    color: #363636;
+}
+
+.pricing .subtitle {
+    color: #4a4a4a;
+}
+
+.pricing p {
+    color: #4a4a4a;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.more p {
     margin-bottom: 16px;
 }

@@ -8535,7 +8535,9 @@ a.navbar-item,
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1080px; }
+  max-width: 1080px;
+  flex-direction: column;
+  align-items: center; }
 
 body {
   background: white; }
@@ -8614,4 +8616,19 @@ p {
   width: 48px; }
 
 .card {
+  margin-bottom: 16px; }
+
+.pricing .title {
+  color: #363636; }
+
+.pricing .subtitle {
+  color: #4a4a4a; }
+
+.pricing p {
+  color: #4a4a4a; }
+
+h3 {
+  font-weight: 700; }
+
+.more p {
   margin-bottom: 16px; }
