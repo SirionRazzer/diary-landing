@@ -8653,3 +8653,10 @@ h3 {
   transform: translateX(40%);
   -webkit-transform: translateX(40%);
   -moz-transform: translateX(40%); }
+
+.carousel-box {
+  width: 380px; }
+
+.carousel-item {
+  height: auto;
+  width: 300px; }
