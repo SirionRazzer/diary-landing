@@ -8602,6 +8602,9 @@ p {
 .media-content .title {
   color: #363636; }
 
+.card .title {
+  color: #363636; }
+
 .media-content .subtitle {
   color: #4a4a4a; }
 
@@ -8624,6 +8627,8 @@ p {
   width: 48px; }
 
 .card {
+  margin-left: 8px;
+  margin-right: 8px;
   margin-bottom: 16px; }
 
 .pricing .title {
@@ -8633,6 +8638,9 @@ p {
   color: #4a4a4a; }
 
 .pricing p {
+  color: #4a4a4a; }
+
+.card p {
   color: #4a4a4a; }
 
 h3 {
@@ -8653,9 +8661,6 @@ h3 {
   transform: translateX(40%);
   -webkit-transform: translateX(40%);
   -moz-transform: translateX(40%); }
-
-.carousel-box {
-  width: 380px; }
 
 .carousel-item {
   height: auto;

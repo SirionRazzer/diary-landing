@@ -157,6 +157,10 @@ p {
   color: #363636;
 }
 
+.card .title {
+  color: #363636;
+}
+
 .media-content .subtitle {
   color: #4a4a4a;
 }
@@ -184,6 +188,8 @@ p {
 }
 
 .card {
+  margin-left: 8px;
+  margin-right: 8px;
   margin-bottom: 16px;
 }
 
@@ -208,6 +214,10 @@ p {
 }
 
 .pricing p {
+  color: #4a4a4a;
+}
+
+.card p {
   color: #4a4a4a;
 }
 
